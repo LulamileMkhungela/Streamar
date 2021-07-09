@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Streamar</string>
+    <string name="todo">TODO</string>
+    <string name="skip">Skip</string>
+    <string name="next">Next</string>
+    <string name="text_getting_started">Getting started</string>
+    <string name="username">Username</string>
+    <string name="txt_date_of_birth">Date of birth</string>
+    <string name="txt_cell_number">phone number</string>
+    <string name="txt_location">Location</string>
+    <string name="btn_save">Save</string>
+    <string name="user_privacy_policy">Privacy Policy</string>
+    <string name="txt_amp"><![CDATA[&]]></string>
+    <string name="terms_amp_conditions_settings">Terms And Conditions</string>
+    <string name="male">Male</string>
+    <string name="Female">female</string>
+    <string name="start">start</string>
+    <string name="title_activity_home_navigation">MainActivity</string>
+    <string name="register_swipe">Register</string>
+    <string name="register_button_text">Register</string>
+    <string name="login_swipe">Log In</string>
+    <string name="login_button_text">Log In</string>
+    <string name="minimum_password">please insert at least 6 digits password</string>
+    <string name="submit_forgot_password">Submit</string>
+    <string name="back_to_login_on_forgot">Back To Login</string>
+    <string name="email_address_forgot_password">Email Address</string>
+    <string name="we_need_your_registered_email_address_to_send_reset_password_instructions">We need your registered email address to send reset password instructions</string>
+</resources>

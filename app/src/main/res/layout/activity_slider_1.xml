@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="6"
+    android:background="@drawable/login_background"
+    android:clipChildren="false"
+    android:orientation="vertical"
+    android:paddingTop="48dp">
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:clipChildren="false">
+
+        <ImageView
+            android:layout_width="240dp"
+            android:layout_height="240dp"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_marginBottom="-22dp"
+            android:padding="16dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/logo"
+            tools:ignore="ContentDescription" />
+
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".5"
+        android:gravity="bottom|center_horizontal"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+        android:text="Use TheNetwork App To Make A Better World "
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="12dp"
+        android:layout_weight="1"
+        android:gravity="top|center_horizontal"
+        android:minHeight="96.0dp"
+        android:paddingLeft="24dp"
+        android:elevation="18dp"
+        android:paddingRight="24dp"
+        android:text="Help us to find others and returning things back to their actual owners,take a step with us to make a  better world."
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@android:color/transparent" />
+
+</LinearLayout>
